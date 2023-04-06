@@ -15,8 +15,13 @@ git add .  //para añadir todo antes de agregar el commit.
 
 git commit -m "Primer Commit"  //añade el commit, es decir la version.
 
-git push origin master  //subir el archivo a github.
+git push origin master  //subir el repositorio a github.
 
+git pull origin master  //descargar el repositorio de github.
+
+git fetch  //trae la informacion sobre ramas.
+
+git checkout NOMBRE_DE_LA_RAMA  //nos mueve a otra rama de trabajo
 
 Resumido:
 git init
@@ -29,6 +34,8 @@ git push origin master
 Otros:
 
 :wq  //para salir de la sub ventana de datos.
+
+git log  // nos tira el historial de cambios en esta rama
 
 clear  //limpia la ventana
 
