@@ -21,7 +21,8 @@ git pull origin master  //descargar el repositorio de github.
 
 git fetch  //trae la informacion sobre ramas.
 
-git checkout NOMBRE_DE_LA_RAMA  //nos mueve a otra rama de trabajo
+git checkout NOMBRE_DE_LA_RAMA  //nos mueve a otra rama de trabajo o versiones.
+
 
 Resumido:
 git init
@@ -35,9 +36,13 @@ Otros:
 
 :wq  //para salir de la sub ventana de datos.
 
-git log  // nos tira el historial de cambios en esta rama
+git log  //nos tira el historial de cambios en esta rama
 
-clear  //limpia la ventana
+git diff  //permite ver las diferencias en cuanto al commit anterior
+
+git log  //nos permite ver el historial.
+
+clear  //limpia la ventana.
 
 git --help
 
