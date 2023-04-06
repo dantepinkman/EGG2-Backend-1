@@ -1,0 +1,32 @@
+Lista de todos los comandos:
+https://git-scm.com/docs
+
+git init  //crea la rama master
+
+git remote add origin https://github.com/dantepinkman/EGG2-Backend-1.git  //vincula el local con el remoto
+
+git remote -v  //corrobora si te vinculaste bien
+
+git congfig -l  //te entrega la lista de configuraciones
+
+git config --global user.name "GianniCasa"  // para poner el nombre local
+
+git status //te muestra en rojo lo que es nuevo (que aun no se a subido al servidor), y en verde lo que esta actualizado
+
+git add .  //para añadir todo antes de agregar el commit
+
+git commit -m "Primer Commit"  //añade el commit, es decir la version
+
+git push origin master  //subir el archivo a github
+
+
+Resumido:
+git init
+git remote add origin LINK DE GIT
+git add .
+git commit -m "COMENTARIO O VERSION"
+git push origin master
+
+
+Otros:
+git --help
