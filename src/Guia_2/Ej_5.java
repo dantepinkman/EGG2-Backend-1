@@ -12,9 +12,17 @@ public class Ej_5 {
     public static void main(String[] args) {
 
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
-        double num = 16;
+        double num;
+        System.out.println("Ingrese numero (recomendado 16)");
+        num = leer.nextInt(); //tambien se puede utilizar "double num = leer.nextInt();" y ya no es neccesario asignarlo arriba
+        
+        double num0 = num * 2;
+        double num1 = num * 3;
         double num2 = Math.sqrt(num);
-        System.out.println("La rainz cuadrada de "+ num + " es " + num2);
+        
+        System.out.println("El doble " + num + " es " + num0);
+        System.out.println("El triple " + num + " es " + num1);
+        System.out.println("La raiz cuadrada de " + num + " es " + num2);
 
         // Igual pero el resulado directamente en el println
         

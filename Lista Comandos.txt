@@ -32,9 +32,9 @@ git commit -m "COMENTARIO O VERSION"
 git push origin master
 
 
-Otros:
+Otros:git 
 
-:wq  //para salir de la sub ventana de datos.
+wq  //para salir de la sub ventana de datos.
 
 git log  //nos tira el historial de cambios en esta rama
 
