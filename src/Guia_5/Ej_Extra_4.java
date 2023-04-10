@@ -18,7 +18,7 @@ import java.util.Scanner;
  *
  * @author Gianni
  */
-public class Ej_4_Extra {
+public class Ej_Extra_4 {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
         

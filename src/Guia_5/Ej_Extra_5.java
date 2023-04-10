@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Gianni
  */
-public class Ej_5_Extra {
+public class Ej_Extra_5 {
 
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in).useDelimiter("\n"); //hay que usar use delimiter porque el nextlines aveces esta bugeado y sigue tomando datos

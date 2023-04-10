@@ -11,7 +11,7 @@ package Guia_5;
 
 import java.util.Scanner;
 
-public class Ej_6_Extra {
+public class Ej_Extra_6 {
 
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in).useDelimiter("\n");

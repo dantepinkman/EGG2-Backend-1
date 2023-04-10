@@ -11,7 +11,7 @@ import java.util.Scanner;
  *Crear una función rellene un vector con números aleatorios, pasándole un arreglo
  *por parámetro. Después haremos otra función o procedimiento que imprima el vector. 
  **/
-public class Ej_3_Extra {
+public class Ej_Extra_3 {
     static Scanner leer = new Scanner(System.in);
     
     public static void main(String[] args) {

@@ -7,7 +7,7 @@ import java.util.Scanner;
  * comparación deberá detenerse en cuanto se detecte alguna diferencia entre los
  * elementos).
  */
-public class Ej_2_Extra {
+public class Ej_Extra_2 {
 
     static Scanner leer = new Scanner(System.in);
 

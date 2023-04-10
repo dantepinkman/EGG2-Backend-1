@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Gianni
  */
-public class Ej_4_Extra_2 {
+public class Ej_Extra_4_1 {
     Scanner leer = new Scanner(System.in).useDelimiter("\n");
     double mat[][] = new double [10][5];
         

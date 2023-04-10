@@ -12,7 +12,9 @@ public class Ej_5 {
     Scanner leer = new Scanner(System.in).useDelimiter("\n");
 
     public static void main(String[] args) {
-        int[][] matrizA = {{0, -2, 4}, {2, 0, 2}, {-4, -2, 0}};
+        int[][] matrizA = {{0, -2, 4},
+                           {2, 0, 2},
+                           {-4, -2, 0}};
 
         mostrarMatriz(matrizA);
         int[][] matrizB = new int[3][3];
@@ -41,18 +43,22 @@ public class Ej_5 {
 
         for (int i = 0; i < matrizA.length; i++) {
             for (int j = 0; j < matrizA.length; j++) {
+
                 if (matrizA[i][j] == matrizB[i][j] * (-1)) {
                     //System.out.println("Correcto");
                     contador++;
-                    if (contador == matrizA.length * matrizA.length) {
-                        System.out.println("Correcto");
-                    } else {
-                        System.out.println("Incorrecto");
-                    }
+
                 }
 
             }
 
+        }
+        System.out.println("");
+        
+        if (contador == matrizA.length * matrizA.length) {
+            System.out.println("Es Correcto");
+        } else {
+            System.out.println("Es Incorrecto");
         }
 
     }

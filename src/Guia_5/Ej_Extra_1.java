@@ -13,7 +13,7 @@ import java.util.Scanner;
  * vector de tamaño N, con los valores ingresados por el usuario.
  *
  */
-public class Ej_1_Extra {
+public class Ej_Extra_1 {
 
     static Scanner leer = new Scanner(System.in);
 

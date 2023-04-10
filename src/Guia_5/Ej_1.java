@@ -1,14 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Guia_5;
 
-/**
- *
- * @author Gianni
- */
+
 public class Ej_1 {
-    
+    public static void main(String[] args) {
+        int[] vector1 = new int[100];
+        for (int i = 0; i < 100; i++) {
+            vector1[i] = i + 1;
+            
+        }
+        for (int i = 99; i > 0; i--) {
+            System.out.println(vector1[i]);
+        }
+    }
 }
